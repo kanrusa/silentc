@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 
-define('SILENTC_TOKEN', file_get_contents('_token'));
+define('SILENTC_TOKEN', '1393818383:AAEJv53xDYRPvxBE7pdiNnKf4WgofVf8EmE');
 $db_data = ['sqlite:silentc.db'];
 
 $cfg = [
@@ -9,8 +9,8 @@ $cfg = [
 	'sudoers' => [
 		276145711,
 	],
-	'api_id' => 123456,
-	'api_hash' => 'change-to-yours',
+	'api_id' => 1580449,
+	'api_hash' => 'fa7e6ec2f1772f55f000d0997fd464ea',
 ];
 
 # User that will receive the error reports
